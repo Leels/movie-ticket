@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="container">
-    <form>
+    <form id="movies">
       <h1>Epicodus Cinemas</h1>
       <h2>Please select your movie, time and age below to determine your ticket price.</h2>
       <h3>Movies:</h3>
@@ -30,51 +30,55 @@
           <input type="radio" name="movie" value="old-movie">
           Joker
         </label>
-        <h3>Time:</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="time" value="matinee">
-            2:30pm
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="time" value="evening">
-            6:00pm
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="time" value="evening">
-            9:00pm
-          </label>
-          <h3>Please select your age:</h3>
-          <div class="radio">
-            <label>
-              <input type="radio" name="age" value="child">
-              Child 12 and under
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="age" value="student">
-              Student (with valid student ID)
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="age" value="adult">
-              Adult
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="age" value="senior">
-              Senior 60 and older
-            </label>
-          </div>
-          <button type="submit" name="btn btn-primary">Total</button>
+      </div>
+      <h3>Time:</h3>
+      <div class="radio">
+        <label>
+          <input type="radio" name="time" value="matinee">
+          2:30pm
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="time" value="evening">
+          6:00pm
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="time" value="evening">
+          9:00pm
+        </label>
+      </div>
+      <h3>Please select your age:</h3>
+      <div class="radio">
+        <label>
+          <input type="radio" name="age" value="child">
+          Child 12 and under
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="age" value="student">
+          Student (with valid student ID)
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="age" value="adult">
+          Adult
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="age" value="senior">
+          Senior 60 and older
+        </label>
+      </div>
+      <button type="submit" name="btn btn-primary">Total</button>
     </form>
+    <div class="total">
+    </div>
   </div>
 </body>
 </html>
