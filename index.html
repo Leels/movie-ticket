@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Epicodus Cinemas</title>
+</head>
+<body>
+  <div class="container">
+    <form>
+      <h1>Epicodus Cinemas</h1>
+      <h2>Please select your movie, time and age below to determine your ticket price.</h2>
+      <h3>Movies:</h3>
+      <div class="radio">
+        <label>
+          <input type="radio" name="movie" value="new-release">
+          Fast & Furious CMII <span class="new-release">New Release!</span>
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="movie" value="new-release">
+          Frozen II <span class="new-release">New Release!</span>
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="movie" value="old-movie">
+          Joker
+        </label>
+        <h3>Time:</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="matinee">
+            2:30pm
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="evening">
+            6:00pm
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="evening">
+            9:00pm
+          </label>
+          <h3>Please select your age:</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="child">
+              Child 12 and under
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="student">
+              Student (with valid student ID)
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="adult">
+              Adult
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="senior">
+              Senior 60 and older
+            </label>
+          </div>
+          <button type="submit" name="btn btn-primary">Total</button>
+    </form>
+  </div>
+</body>
+</html>
